@@ -13,34 +13,69 @@
   <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
-<header>
- <!-- Menú navegador  -->
- <nav class="menu">
-  <ul>
-   <li><a href="">Home</a></li>
-   <li class="submenu"><a href="">About</a>
-   <span class="icon-down-dir"> </span>
-   <ul class="hide itemList">
-     <li><a href="#">SubItem 21</a></li>
-     <li><a href="#">SubItem 22</a></li>
-     <li><a href="#">SubItem 23</a></li>
-     <li><a href="#">SubItem 24</a></li>
-   </ul>
-   </li>
-   <li class="submenu"><a href="">Portfolio</a>
-    <span class="icon-down-dir"> </span>
-    <ul class="hide itemList">
-      <li><a href="#">SubItem 31</a></li>
-      <li><a href="#">SubItem 32</a></li>
-      <li><a href="#">SubItem 33</a></li>
-      <li><a href="#">SubItem 34</a></li>
-    </ul>
-    </li>
-   <li><a href="">Contact</a></li>
-  </ul>
- </nav>
-</header>
+    <section id="seccionInicial">
+        <h1><b>Lab Menu <img src="assets/imgs/hamburguesa-papacha.jpg" alt="hamburguesa papacha"> </b> </h1>
+        <p class="descripcionEmpresa">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam ipsam illum sed officia dolores nostrum incidunt et minus dolore consectetur sequi, accusamus sapiente sint quis voluptas. Odio necessitatibus fugiat rem.</p>
+       </section>
+       <section>
+        <ul>
+          <li>
+            <button type="button" name="button" data-tabSeleccionado="tabDesayuno" class="tab">Desayuno</button>
+          </li>
+          <li>
+           <button type="button" name="button" data-tabSeleccionado="tabComida" class="tab">Comida</button>
+         </li>
+         <li>
+           <button type="button" name="button" data-tabSeleccionado="tabCena" class="tab">Cena</button>
+         </li>
+        </ul>
+        <div class="">
+         <article id="desayuno" class="contenido">
+           <div class="divImg">
+             <img src="assets/imgs/hamburguesa-papacha.jpg" alt="hamburguesa papacha">
+            </div>
+            <div class="divTexto">
+              <h3>TituloDesayuno</h3>
+              <ul>
+                <li>Hotcakes</li>
+                <li>Café</li>
+                <li>Fruta</li>
+                <li>Jugo</li>
+              </ul>
+            </div>
+          </article>
+          <article id="comida" class="contenido">
+           <div class="divImg">
+             <img src="assets/imgs/hamburguesa-papacha.jpg" alt="hamburguesa papacha">
+            </div>
+            <div class="divTexto">
+              <h3>TituloComida</h3>
+              <ul>
+                <li>Hotcakes</li>
+                <li>Café</li>
+                <li>Fruta</li>
+                <li>Jugo</li>
+              </ul>
+            </div>
+          </article>
+          <article id="cena" class="contenido">
+             <div class="divImg">
+               <img src="assets/imgs/hamburguesa-papacha.jpg" alt="hamburguesa papacha">
+              </div>
+              <div class="divTexto">
+                <h3>TituloCena</h3>
+                <ul>
+                  <li>Hotcakes</li>
+                  <li>Café</li>
+                  <li>Fruta</li>
+                  <li>Jugo</li>
+                </ul>
+              </div>
+            </article>
+        </div>
+       </section>
  <script src="js/app.js">
  </script>
 </body>
+
 </html>
